@@ -58,20 +58,20 @@ func main() {
 
 ### Wrapped APIs
 
-- [x]info
-- [ ]ticker
-- [ ]depth
-- [ ]trades
-- [x]getinfo
-- [ ]Trade
-- [ ]ActiveOrders
-- [ ]OrderInfo
-- [ ]CancelOrder
-- [ ]TradeHistory
-- [ ]GetDepositAddress
-- [ ]WithdrawCoinsToAddress
-- [ ]CreateYobicode
-- [ ]RedeemYobicode
+- [x] info
+- [ ] ticker
+- [ ] depth
+- [ ] trades
+- [x] getinfo
+- [ ] Trade
+- [ ] ActiveOrders
+- [ ] OrderInfo
+- [ ] CancelOrder
+- [ ] TradeHistory
+- [ ] GetDepositAddress
+- [ ] WithdrawCoinsToAddress
+- [ ] CreateYobicode
+- [ ] RedeemYobicode
 
 #### Donations
 

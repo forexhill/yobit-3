@@ -8,8 +8,8 @@ import (
 type GetInfo struct {
 	Success int `json:"success"`
 	Return  struct {
-		Funds           interface{} `json:"funds,omitempty"`
-		FundsInclOrders interface{} `json:"funds_incl_orders,omitempty"`
+		Funds           map[string]float64 `json:"funds"`
+		FundsInclOrders map[string]float64 `json:"funds_incl_orders"`
 		Rights          struct {
 			Info     int `json:"info"`
 			Trade    int `json:"trade"`
