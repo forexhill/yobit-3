@@ -59,7 +59,7 @@ func main() {
 ### Wrapped APIs
 
 - [x] info
-- [ ] ticker
+- [x] ticker
 - [ ] depth
 - [ ] trades
 - [x] getinfo
