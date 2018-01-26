@@ -2,6 +2,7 @@ package yobit
 
 import (
 	"context"
+	"errors"
 	"net/url"
 )
 
@@ -31,6 +32,12 @@ func (c *Client) GetInfo(ctx context.Context, params url.Values) (GetInfo, error
 
 	_, err = c.do(req, ret)
 	if err != nil {
+		return *ret, err
+	}
+
+	if ret.Success == 0 {
+		err := errors.New("Authentication failed")
+
 		return *ret, err
 	}
 
